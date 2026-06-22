@@ -162,7 +162,7 @@ export function AudienceSection() {
           <h2>Feito para quem usa IA para trabalhar, criar e vender</h2>
           <p>
             O mapa é para quem quer usar ferramentas melhores, produzir mais e
-            reduzir o custo mensal do próprio stack.
+            reduzir o custo mensal do próprio stack
           </p>
         </div>
 
