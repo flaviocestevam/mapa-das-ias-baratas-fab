@@ -1,6 +1,6 @@
 // Shared data and constants for the "Mapa das IAs Baratas" landing page.
 
-export const CHECKOUT_URL = "https://pay.cakto.com.br/csa8xgs_935791";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/4jhASXa";
 export const PRODUCT_PRICE = 197;
 export const OFFER_OLD_PRICE = "R$497";
 export const OFFER_NEW_PRICE = "R$197";
