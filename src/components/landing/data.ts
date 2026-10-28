@@ -7,10 +7,10 @@ export const OFFER_NEW_PRICE = "R$197";
 
 // Asset URLs bundled with the independent deployment.
 export const ASSETS = {
-  catCriadores: "/assets/cat-criadores.png",
-  catFreelancers: "/assets/cat-freelancers.png",
-  catInfoprodutores: "/assets/cat-infoprodutores.png",
-  garantiaMan: "/assets/garantia-man.png",
+  catCriadores: "/assets/cat-criadores.webp",
+  catFreelancers: "/assets/cat-freelancers.webp",
+  catInfoprodutores: "/assets/cat-infoprodutores.webp",
+  garantiaMan: "/assets/garantia-man.webp",
 } as const;
 
 export type Tool = {
