@@ -86,8 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "Mapa das ias baratas" },
       { name: "twitter:description", content: "Pare de pagar preço cheio em ferramentas de IA. Descubra onde encontrar licenças, créditos e acessos de ferramentas famosas de IA por valores muito menores" },
-      { property: "og:image", content: "/assets/cat-criadores.png" },
-      { name: "twitter:image", content: "/assets/cat-criadores.png" },
+      { property: "og:image", content: "/assets/cat-criadores.webp" },
+      { name: "twitter:image", content: "/assets/cat-criadores.webp" },
     ],
     links: [
       {
