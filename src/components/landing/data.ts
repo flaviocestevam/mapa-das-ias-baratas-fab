@@ -5,16 +5,12 @@ export const PRODUCT_PRICE = 197;
 export const OFFER_OLD_PRICE = "R$497";
 export const OFFER_NEW_PRICE = "R$197";
 
-// Asset URLs (served by the platform asset pipeline).
+// Asset URLs bundled with the independent deployment.
 export const ASSETS = {
-  catCriadores:
-    "/__l5e/assets-v1/33822227-30d1-45c8-966a-3d56381deb24/cat-criadores.png",
-  catFreelancers:
-    "/__l5e/assets-v1/edeae1b4-5c53-467b-86fc-1a71f8754140/cat-freelancers.png",
-  catInfoprodutores:
-    "/__l5e/assets-v1/69516914-401a-4e60-94f1-a0bbeb5f4c2b/cat-infoprodutores.png",
-  garantiaMan:
-    "/__l5e/assets-v1/f7fca284-3230-46d5-825a-42e6f70275b1/garantia-man.png",
+  catCriadores: "/assets/cat-criadores.png",
+  catFreelancers: "/assets/cat-freelancers.png",
+  catInfoprodutores: "/assets/cat-infoprodutores.png",
+  garantiaMan: "/assets/garantia-man.png",
 } as const;
 
 export type Tool = {
@@ -64,8 +60,7 @@ export type Testimonial = {
   face: string;
 };
 
-const faceUrl = (id: string, file: string) =>
-  `/__l5e/assets-v1/${id}/${file}`;
+const faceUrl = (_id: string, file: string) => `/assets/${file}`;
 
 export const TESTIMONIALS: Testimonial[] = [
   { name: "Ricardo Almeida", role: "CEO • Agência de Marketing (45 colaboradores)", face: faceUrl("6175ea71-b275-4c09-a1f9-ccf0da7c5ad7", "face1.jpg"), quote: "\"Cortei mais de R$3.800 por mês em assinaturas de IA da equipe. Em 4 meses paguei um ano inteiro de ferramentas só com a economia.\"" },
